@@ -1,0 +1,40 @@
+# Build output
+build/
+*.elf
+*.bin
+*.hex
+*.map
+*.o
+*.a
+*.d
+*.eep
+*.lst
+*.bak
+
+# Arduino
+*.ino.bin
+*.ino.elf
+*.ino.map
+*.ino.partitions.bin
+*.ino.bootloader.bin
+sketch/build/
+.arduino15/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.code-workspace
+*.swp
+*.swo
+*~
+*.tmp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Logs
+*.log
